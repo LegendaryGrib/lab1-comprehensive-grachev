@@ -1,5 +1,3 @@
-import os
-
 def calculate_cart_total(cart_sum, tier, promos):
     price = cart_sum
     if cart_sum > 15000:
@@ -16,5 +14,3 @@ def calculate_cart_total(cart_sum, tier, promos):
     if price < cart_sum * 0.70:
         price = cart_sum * 0.70
     return price
-
-# Intentionally long line for the flake8 quality-gate test: this explanatory text should exceed the configured eighty-character limit.
