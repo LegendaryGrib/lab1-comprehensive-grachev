@@ -52,7 +52,7 @@
 
 ### 5.1. Анализ алгоритма
 
-![Диаграмма деятельности расчета скидок](docs/uml_diagram.png)
+![Диаграмма деятельности расчета скидок](https://raw.githubusercontent.com/LegendaryGrib/lab1-comprehensive-grachev/feature/review-plan/docs/uml_diagram.png)
 
 Диаграмма показывает старт и завершение, базовую скидку при `cart_sum > 15000`, перебор промокодов с проверками `SUMMER` и `VIP`, скидку уровня и ограничение цены в 70% от исходной суммы.
 
@@ -60,7 +60,7 @@
 
 ### 5.2. План code-review
 
-План: [docs/review-plan.md](docs/review-plan.md). В нем заданы цели по точности и антифроду, проверяемые критерии (валидация, отсутствие магических чисел, покрытие выше 80%), участники с ролями и пошаговая эскалация разногласий. PR с планом и UML оставлен открытым: [#3](https://github.com/LegendaryGrib/lab1-comprehensive-grachev/pull/3).
+План: [docs/review-plan.md](https://github.com/LegendaryGrib/lab1-comprehensive-grachev/blob/feature/review-plan/docs/review-plan.md). В нем заданы цели по точности и антифроду, проверяемые критерии (валидация, отсутствие магических чисел, покрытие выше 80%), участники с ролями и пошаговая эскалация разногласий. PR с планом и UML оставлен открытым: [#3](https://github.com/LegendaryGrib/lab1-comprehensive-grachev/pull/3).
 
 ## 6. Заключение
 
